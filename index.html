@@ -8,19 +8,19 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #121212; /* Dark Background */
-      color: #ffffff; /* Light Text */
+      background-color: #121212;
+      color: #ffffff;
       margin: 40px auto;
       padding: 20px;
       max-width: 800px;
       line-height: 1.8;
-      text-align: center; /* Center Text */
+      text-align: center;
     }
     h1, h2, h3 {
-      color: #ff5555; /* Bright Red Headers */
+      color: #ff5555;
     }
     a {
-      color: #00aaff; /* Bright Blue Links */
+      color: #00aaff;
       text-decoration: none;
       font-weight: bold;
     }
@@ -29,7 +29,7 @@
     }
     ul {
       display: inline-block;
-      text-align: left; /* Align Lists to Left for Readability */
+      text-align: left;
     }
     .skip-link {
       position: absolute;
@@ -57,21 +57,28 @@
       <h2>1. Information We Collect</h2>
       <article>
         <h3>a. No Personal Data Collection</h3>
-        <p>We do <strong>not</strong> collect, store, or share any personally identifiable information (PII).</p>
+        <p>We do <strong>not</strong> collect, store, or share any personally identifiable information (PII), such as names, email addresses, or phone numbers.</p>
       </article>
       <article>
         <h3>b. Permissions & Local Storage</h3>
         <ul>
-          <li>The App requires <strong>Camera Permission</strong> to control the flashlight. We do not access your camera feed.</li>
-          <li>We use <strong>SharedPreferences</strong> to store user preferences <strong>locally</strong> on your device. No data is uploaded.</li>
+          <li>The App requires <strong>Camera Permission</strong> to control the flashlight. This permission is used **only** to toggle the flashlight **without accessing the camera feed, images, or videos**.</li>
+          <li>We use <strong>SharedPreferences</strong> to store user settings (e.g., brightness level, ad-free status) **locally** on your device. No data is uploaded.</li>
         </ul>
       </article>
       <article>
-        <h3>c. AdMob (Advertising)</h3>
-        <p>The App displays ads via <strong>Google AdMob</strong>, which may collect certain device information for ad personalization.</p>
-        <p>For more details, refer to:  
-          <a href="https://policies.google.com/technologies/ads" target="_blank">Google AdMob Privacy Policy</a>
+        <h3>c. AdMob (Third-Party Advertising)</h3>
+        <p>The App displays ads via <strong>Google AdMob</strong>, which may collect certain device information for ad personalization, including:</p>
+        <ul>
+          <li>Device identifiers</li>
+          <li>IP addresses</li>
+          <li>App interaction and usage data</li>
+        </ul>
+        <p><strong>Legal Basis:</strong> Under GDPR, AdMob processes data based on your <strong>explicit consent</strong>, obtained through Google's Consent Management Platform.</p>
+        <p>Manage or withdraw consent here:  
+          <a href="https://adssettings.google.com" target="_blank">Google Ads Settings</a>
         </p>
+        <p>For details, see <a href="https://policies.google.com/technologies/ads" target="_blank">Google AdMob Privacy Policy</a>.</p>
       </article>
     </section>
     
@@ -90,9 +97,8 @@
         <h3>Google AdMob (Advertising)</h3>
         <ul>
           <li>AdMob may collect device identifiers, IP addresses, and usage data for ad personalization.</li>
-          <li>Manage ad preferences here:  
-            <a href="https://adssettings.google.com" target="_blank">Google Ads Settings</a>
-          </li>
+          <li><strong>International Data Transfers:</strong> AdMob may transfer data outside the EU (e.g., to the U.S.). Google ensures compliance through <strong>Standard Contractual Clauses (SCCs)</strong> and other GDPR-approved safeguards.</li>
+          <li><strong>Data Retention:</strong> AdMob retains data as long as necessary for ad personalization, following Google’s retention policies. See <a href="https://policies.google.com/technologies/ads" target="_blank">Google’s Data Retention Policy</a>.</li>
         </ul>
       </article>
       <article>
@@ -103,35 +109,29 @@
       </article>
     </section>
     
-    <section id="user-choices">
-      <h2>4. User Choices & Controls</h2>
+    <section id="user-rights">
+      <h2>4. Your Rights Under GDPR</h2>
+      <p>If you are in the European Economic Area (EEA), you have the following rights:</p>
       <ul>
-        <li><strong>Opt-Out of Personalized Ads:</strong> Manage settings here:  
-          <a href="https://adssettings.google.com" target="_blank">Google Ad Preferences</a>
-        </li>
-        <li><strong>Ad Removal:</strong> Users may opt for an ad-free experience through an in-app purchase.</li>
+        <li><strong>Right to Access:</strong> Request copies of personal data AdMob collects.</li>
+        <li><strong>Right to Erasure:</strong> Request deletion of personal data.</li>
+        <li><strong>Right to Restrict Processing:</strong> Limit how data is used.</li>
+        <li><strong>Right to Object:</strong> Object to processing (e.g., personalized ads).</li>
+        <li><strong>Right to Data Portability:</strong> Request data in a structured format.</li>
+        <li><strong>Right to Withdraw Consent:</strong> Withdraw consent for data processing.</li>
       </ul>
-    </section>
-    
-    <section id="security">
-      <h2>5. Security</h2>
-      <p>Since we do not store or process user data, security risks are minimized.</p>
-    </section>
-    
-    <section id="childrens-privacy">
-      <h2>6. Children's Privacy</h2>
-      <p>The App is <strong>not intended for children under 17</strong>. AdMob may serve interest-based ads, so parental guidance is recommended.</p>
+      <p>To exercise these rights, contact us at <a href="mailto:jschantz1985@gmail.com">jschantz1985@gmail.com</a>.</p>
     </section>
     
     <section id="policy-changes">
-      <h2>7. Changes to This Privacy Policy</h2>
-      <p>We may update this Privacy Policy periodically. Any significant changes will be communicated via an in-app notice.</p>
+      <h2>5. Changes to This Privacy Policy</h2>
+      <p>We may update this Privacy Policy periodically. Significant changes will be communicated via an in-app notice.</p>
     </section>
     
     <section id="contact">
-      <h2>8. Contact Us</h2>
-      <p>If you have questions about this Privacy Policy, contact us at:</p>
-      <p>📧 <strong>Email:</strong> <a href="mailto:jschantz1985@gmail.com">[Your Email]</a></p>
+      <h2>6. Contact Us</h2>
+      <p>If you have any questions, contact us at:</p>
+      <p>📧 <strong>Email:</strong> <a href="mailto:jschantz1985@gmail.com">jschantz1985@gmail.com</a></p>
     </section>
   </main>
   
